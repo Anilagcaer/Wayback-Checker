@@ -1,0 +1,25 @@
+{
+    "name": "effernet/efferent",
+    "description": "The Efferent PHP Framework",
+    "type": "framework",
+    "require": {
+        "effernet/framework" : "*",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Effernet",
+            "email": "info@effernet.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Effernet\\" : "vendor/effernet/framework/src",
+            "App\\" : "app/"
+        }
+    },
+    "minimum-stability": "dev"
+}
